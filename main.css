@@ -8,9 +8,22 @@
   --footer-address: rgba(255, 255, 255, 0.6);
   --footer-source: rgba(255, 255, 255, 0.4);
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body {
   font-family: var(--font-text);
   font-style: normal;
+}
+.container {
+  width: 1200px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 a {
   text-decoration: none;
@@ -25,6 +38,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--footer-color);
 }
 h2 {
   color: var(--title-color);
@@ -55,7 +69,7 @@ h3 {
   color: black;
 }
 .site-nav {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -165,12 +179,18 @@ p {
   text-transform: uppercase;
 }
 .buttom {
+  display: inline-block;
+  min-width: 200px;
+  padding: 10px 32px;
+  text-align: center;
   color: var(--footer-color);
-  background-color: #2196f3;
+  border-radius: 4px;
+  background-color: var(--main-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .source {
   color: var(--footer-source);
