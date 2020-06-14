@@ -44,8 +44,8 @@
     </header>
     <main class="section">
       <div class="container">
-        <nav class="main-container">
-          <ul class="portfolio">
+        <nav class="main-portfolio">
+          <ul class="portfolio main-conteiner">
             <li class="list-portfolio">
               <a href="" class="button list-items">Все</a>
             </li>
@@ -64,23 +64,18 @@
           </ul>
         </nav>
         <section class="services">
-          <ul>
-            <li>
+          <ul class="our-service">
+            <li class="our-photo">
               <img
                 src="./img/img14.jpg"
                 class="portfolio-poster"
                 alt="Компьютер"
                 width="370"
               />
-              <p class="techno">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов
-              </p>
               <h3 class="poster">Технокряк</h3>
               <p class="work">Веб-сайт</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img6.jpg"
                 class="portfolio-poster"
@@ -90,7 +85,7 @@
               <h3 class="poster">Постер New Orlean vs Golden Star</h3>
               <p class="work">Дизайн</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img7.jpg"
                 class="portfolio-poster"
@@ -100,7 +95,7 @@
               <h3 class="poster">Ресторан Seafood</h3>
               <p class="work">Приложение</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img8.jpg"
                 class="portfolio-poster"
@@ -110,7 +105,7 @@
               <h3 class="poster">Проект Primed</h3>
               <p class="work">Маркетинг</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img9.jpg"
                 class="portfolio-poster"
@@ -120,7 +115,7 @@
               <h3 class="poster">Проект Boxes</h3>
               <p class="work">Приложение</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img10.jpg"
                 class="portfolio-poster"
@@ -130,7 +125,7 @@
               <h3 class="poster">Inspiration has no Borders</h3>
               <p class="work">Веб-сайт</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img11.jpg"
                 class="portfolio-poster"
@@ -140,7 +135,7 @@
               <h3 class="poster">Издание Limited Edition</h3>
               <p class="work">Дизайн</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img12.jpg"
                 class="portfolio-poster"
@@ -150,7 +145,7 @@
               <h3 class="poster">Проект LAB</h3>
               <p class="work">Маркетинг</p>
             </li>
-            <li>
+            <li class="our-photo">
               <img
                 src="./img/img13.jpg"
                 class="portfolio-poster"
@@ -164,41 +159,47 @@
         </section>
       </div>
     </main>
-    <footer>
-      <div class="container">
-        <a href="" class="logo">
-          <span class="blue"> Web </span>
-          <span class="footer-studio"> Studio</span></a
-        >
-        <address class="footer-addres">
-          <div>
-            <p class="footer-studio">г. Киев, пр-т Леси Украинки, 26</p>
-          </div>
+    <footer class="footer">
+      <div class="container main-conteiner">
+        <div class="footer-elements">
+          <a href="" class="logo">
+            <span class="blue"> Web </span>
+            <span class="footer-studio"> Studio</span></a
+          >
+          <address class="footer-addres">
+            <div>
+              <p class="footer-studio">г. Киев, пр-т Леси Украинки, 26</p>
+            </div>
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com ">
+                  <span class="footer-studio"> info@devstudio.com</span></a
+                >
+              </li>
+              <li>
+                <a href="tel:+380961111111">
+                  <span class="footer-studio">+38 096 111 11 11</span></a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-elements">
+          <div class="footer-act"><b>присоединяйтесь</b></div>
           <ul>
-            <li>
-              <a href="mailto:info@devstudio.com ">
-                <span class="footer-studio"> info@devstudio.com</span></a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111">
-                <span class="footer-studio">+38 096 111 11 11</span></a
-              >
-            </li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">In</a></li>
           </ul>
-        </address>
-        <div class="footer-act"><b>присоединяйтесь</b></div>
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
-          <li><a href="">In</a></li>
-        </ul>
-        <div class="footer-act"><b>Подпишитесь на рассылку</b></div>
-        <input type="text" name="user_name" />
-        <a class="buttom" href="">Подписаться</a>
-        <div><p class="source">2020 | Developed by GoIT Students</p></div>
+        </div>
+        <div class="footer-elements">
+          <b class="footer-act">Подпишитесь на рассылку</b>
+          <input type="text" name="user_name" />
+          <a class="buttom" href="">Подписаться</a>
+        </div>
       </div>
+      <p class="source">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
