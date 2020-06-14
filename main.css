@@ -28,6 +28,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.main-conteiner {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 a {
   text-decoration: none;
 }
@@ -76,12 +83,19 @@ h3 {
   color: black;
 }
 .site-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 85px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-color);
 }
 .link:hover,
@@ -89,7 +103,25 @@ h3 {
   color: var(--main-color);
 }
 .site-nav .link-current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-color);
+}
+.link-list {
+  margin-right: 50px;
+}
+.link-list:last-child {
+  margin-right: 0;
+}
+.contacs {
+  margin-left: auto;
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.contacs .contac + .contac {
+  margin-left: 30px;
 }
 .contac {
   font-weight: 500;
@@ -106,6 +138,16 @@ h3 {
 .portfolio {
   margin-top: 0;
   margin-bottom: 0;
+}
+.list-portfolio {
+  display: block;
+}
+.info-li {
+  display: block;
+  width: 270px;
+}
+.info-li + .info-li {
+  margin-left: 30px;
 }
 .button {
   display: inline-block;
@@ -154,6 +196,13 @@ h3 {
   margin-bottom: 10px;
   margin-top: 0;
 }
+.our-work-list {
+  display: block;
+  width: 370px;
+}
+.our-work-list + .our-work-list {
+  margin-left: 30px;
+}
 .our-work {
   margin-bottom: 50px;
   margin-top: 0;
@@ -168,7 +217,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
   min-width: 370px;
-  padding: 27px 85px;
+  text-align: center;
   background: rgba(47, 48, 58, 0.8);
 }
 .our-team {
@@ -176,12 +225,20 @@ h3 {
   margin-bottom: 50px;
   margin-top: 0;
 }
+.our-people {
+  display: block;
+  width: 270px;
+}
+.our-people + .our-people {
+  margin-left: 30px;
 .techno {
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--footer-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 p {
   color: var(--text-color);
@@ -196,11 +253,14 @@ p {
   line-height: 1.85;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .photo {
   margin-bottom: 30px;
 }
 .name {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -210,6 +270,7 @@ p {
   margin-bottom: 10px;
 }
 .profession {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 400;
@@ -242,6 +303,13 @@ p {
 .mail {
   margin-top: 0;
   margin-bottom: 0;
+}
+.portfolio-poster {
+  margin-bottom: 20px;
+}
+.poster {
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .footer-addres {
   font-weight: 400;
