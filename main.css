@@ -67,6 +67,7 @@ h3 {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  background-color: violet;
 }
 .blue {
   color: var(--main-color);
@@ -166,6 +167,14 @@ h3 {
   color: var(--footer-color);
   margin-top: 0;
   margin-bottom: 0;
+  min-width: 370px;
+  padding: 27px 85px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.our-team {
+  background-color: tomato;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .techno {
   font-weight: normal;
@@ -188,22 +197,51 @@ p {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.photo {
+  margin-bottom: 30px;
+}
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .profession {
+  margin-top: 0;
+  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18px;
   letter-spacing: 0.03em;
 }
+.clients {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.footer {
+  background: #2f303a;
+}
 .footer-studio {
   color: var(--footer-color);
   font-style: normal;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.footer-logo {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background-color: violet;
+  margin-bottom: 8px;
+}
+.mail {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer-addres {
   font-weight: 400;
