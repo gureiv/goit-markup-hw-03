@@ -348,6 +348,8 @@ p {
   color: var(--footer-color);
   font-style: normal;
   margin-top: 0;
+}
+.footer-addres p {
   margin-bottom: 9px;
 }
 .footer-logo {
@@ -356,7 +358,6 @@ p {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 8px;
 }
 .mail {
   margin-top: 0;
@@ -423,4 +424,20 @@ p {
 }
 .footer-elements {
   display: block;
+  padding-top: 60px;
+  justify-content: space-between;
+}
+.network {
+  display: block;
+}
+.cotacs-details {
+  text-align: left;
+}
+.mail2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.enter {
+  margin-right: auto;
 }
