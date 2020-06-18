@@ -33,7 +33,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  outline: 1px solid tomato;
 }
 a {
   text-decoration: none;
@@ -82,6 +81,7 @@ h3 {
 }
 .blue {
   color: var(--main-color);
+  font-style: normal;
 }
 .studio {
   color: black;
@@ -184,6 +184,7 @@ h3 {
 .section {
   margin-bottom: 94px;
 }
+
 .idea {
   min-width: 270px;
   border-radius: 4px;
@@ -216,6 +217,9 @@ h3 {
   margin-bottom: 50px;
   margin-top: 0;
 }
+.block {
+  display: block;
+}
 .quality-second {
   margin-top: 0;
   margin-bottom: 0;
@@ -229,6 +233,7 @@ h3 {
   text-align: center;
   background: rgba(47, 48, 58, 0.8);
   padding: 27px 80px 27px 80px;
+  display: block;
 }
 .our-team {
   margin-bottom: 50px;
@@ -327,6 +332,8 @@ p {
 }
 .our-service {
   padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -334,6 +341,7 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
 }
 .our-photo:nth-child(3n) {
   margin-right: 0;
@@ -343,6 +351,8 @@ p {
 }
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 21px;
 }
 .footer-studio {
   color: var(--footer-color);
@@ -353,11 +363,13 @@ p {
   margin-bottom: 9px;
 }
 .footer-logo {
+  display: inline-block;
   font-family: var(--font-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 8px;
 }
 .mail {
   margin-top: 0;
@@ -383,6 +395,8 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .buttom {
   display: inline-block;
@@ -422,22 +436,54 @@ p {
   margin-bottom: 0;
   margin-top: 0;
 }
-.footer-elements {
+.footer-elements,
+.subscribe,
+.footer-addres {
   display: block;
-  padding-top: 60px;
-  justify-content: space-between;
+}
+.subscribe {
+  flex-direction: column;
 }
 .network {
   display: block;
 }
 .cotacs-details {
-  text-align: left;
+  display: inline-block;
+  margin-left: auto;
+}
+.input {
+  min-width: 334px;
+  padding: 14px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.main-conteiner2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 68px;
 }
 .mail2 {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0;
 }
-.enter {
-  margin-right: auto;
+.social-network2 {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mail2:nth-first-child() {
+  margin-bottom: 8px;
+}
+.contacs-details {
+  margin-bottom: 8px;
+}
+.contacs-details:last-child {
+  margin-bottom: 0;
+}
+.main-portfolio {
+  padding-top: 94px;
 }
