@@ -45,7 +45,6 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 h1 {
   margin-top: 0;
@@ -95,6 +94,7 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
+  padding-left: 0;
 }
 .link {
   display: block;
@@ -182,9 +182,12 @@ h3 {
   background-color: var(--main-color);
 }
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
 }
-
+.section2 {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .idea {
   min-width: 270px;
   border-radius: 4px;
@@ -255,7 +258,10 @@ h3 {
 }
 .network {
   display: block;
-  padding: 12px 13px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  padding: 12px 13px 12px 13px;
 }
 .network + .network {
   margin-left: 10px;
@@ -287,6 +293,7 @@ p {
   color: var(--text-color);
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 24px;
 }
 .photo-card {
   padding-bottom: 24px;
@@ -300,6 +307,7 @@ p {
   padding-bottom: 94px;
 }
 .name {
+  margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -307,21 +315,21 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-color);
   margin-top: 0;
-  margin-bottom: 20px;
 }
 .profession {
   margin-bottom: 16px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18px;
-  letter-spacing: 0.03em;
 }
 .clients {
   margin-top: 0;
   margin-bottom: 50px;
+}
+.clients-name {
+  display: block;
 }
 .our-clients {
   display: block;
@@ -381,6 +389,7 @@ p {
 .poster {
   margin-top: 0;
   margin-bottom: 4px;
+  padding-left: 24px;
 }
 .footer-addres {
   font-weight: 400;
